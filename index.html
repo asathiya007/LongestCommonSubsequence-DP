@@ -1,0 +1,52 @@
+<!-- by AKSHAY SATHIYA, 04/20/2019 -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>LCS Generator</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Longest Common Subsequence Generator</h1>
+        </header>
+
+        <div id="instr-bar">
+            <h3>The longest common subsequence (LCS) of two strings is the
+            longest subset of characters that occur in the same sequence in the
+            both strings. For example, the LCS of "hello" and "elmo" is "elo".</h3>
+        </div>
+
+        <form id="find-LCS" class="container">
+            <label class="firstLabel">Enter Strings</label>
+            <br>
+            <br>
+            <label for="stringA">String 1</label>
+            <input type="text" class="stringA" name="stringA" placeholder="Enter a string">
+            <br>
+            <br>
+            <label for="stringB">String 2</label>
+            <input type="text" class="stringB" name="stringB" placeholder="Enter another string">
+            <br>
+            <br>
+            <button type="submit">Find LCS</button>
+            <br>
+        </form>
+
+        <br>
+
+        <div id="display-LCS" class="container">
+            <label class="firstLabel">Longest Common Subsequence</label>
+            <br>
+            <p id="LCS" class="displayLCSText">&nbsp;</p>
+            <p id="length-LCS" class="displayLCSText">&nbsp;</p>
+        </div>
+
+        <script src="js/lcsgenerator.js"></script>
+    </body>
+
+    <footer>
+        <p>Akshay Sathiya, Copyright &copy; 2019</p>
+    </footer>
+</html>
