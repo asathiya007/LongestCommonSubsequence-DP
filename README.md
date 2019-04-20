@@ -1,0 +1,2 @@
+# LongestCommonSubsequence-DP
+This is a responsive, interactive webapp that allows a user to enter two strings, and find the longest common subsequence (LCS) between them. The LCS of two strings is the longest subset of characters that occur in the same sequence in the both strings. For example, the LCS of "hello" and "elmo" is "elo". This webapp solves this problem using a dynamic programming approach. 
